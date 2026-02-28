@@ -3274,7 +3274,7 @@
                   , n = document.createElement("img");
                 t.classList.add("lightbox-image"),
                 n.classList.add("img-content"),
-                n.setAttribute("draggable", !1),
+                n.setAttribute("draggable", ),
                 this.lightbox.appendChild(t),
                 t.appendChild(n),
                 n.addEventListener("load", (function() {
